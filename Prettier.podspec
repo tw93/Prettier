@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Prettier'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = 'A wrapper for the Prettier code formatter written in Swift.'
 
   s.homepage         = 'https://github.com/tw93/Prettier'
