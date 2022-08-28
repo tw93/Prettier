@@ -25,7 +25,9 @@ let package = Package(
 To get started with Prettier you must first import the module.
 
 ```swift
+#if SWIFT_PACKAGE
 import Prettier
+#endif
 ```
 
 Now you can create an instance of PrettierFormatter.

@@ -1,10 +1,22 @@
 import XCTest
+#if SWIFT_PACKAGE
 import Prettier
-import PrettierBabel
-import PrettierMarkdown
-import PrettierPHP
-import PrettierPostCSS
-import PrettierHTML
+#endif
+#if SWIFT_PACKAGE
+import Prettier
+#endifBabel
+#if SWIFT_PACKAGE
+import Prettier
+#endifMarkdown
+#if SWIFT_PACKAGE
+import Prettier
+#endifPHP
+#if SWIFT_PACKAGE
+import Prettier
+#endifPostCSS
+#if SWIFT_PACKAGE
+import Prettier
+#endifHTML
 
 final class PrettierTests: XCTestCase {
     func testInitialDocExample() {
